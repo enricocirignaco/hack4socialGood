@@ -26,8 +26,10 @@ this bug is about the alignment of the main nav bar.
 <br></br>
   
 - **design**: In "Projekte": layout with image and text is ugly -> embed image or put in on top or bottom
-<br></br>
 - **design**: In "Mitmachen": same problem here with the interplay of image and text -> embed image or put in on top or bottom
+- **design**: The two problems above are prevalent throughout many views
+- **design**: In "Sturzangst-check": the input fields don't adopt to mobile view: their width is fixed.
+  
 <br></br>
 
 

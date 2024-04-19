@@ -1,0 +1,4 @@
+.. |scheduler_cleanunusedfiles|      image:: ../../../Images/scheduler_cleanunusedfiles.png
+   :width: 800
+.. :align: left
+.. :name: scheduler_cleanunusedfiles

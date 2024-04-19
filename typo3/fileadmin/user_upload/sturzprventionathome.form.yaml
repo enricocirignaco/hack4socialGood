@@ -1,0 +1,59 @@
+
+renderingOptions:
+  submitButtonLabel: 'Bitte um Rückruf'
+type: Form
+identifier: sturzprventionathome
+label: 'Sturzprävention at home'
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: 'Interesse an Sturzprävention @home'
+      recipientAddress: friederike.schulte@sturzzentrum.ch
+      recipientName: 'Friederike Schulte'
+      senderAddress: info@sturzzentrum.ch
+      senderName: '{text-1}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: false
+      translation:
+        language: default
+    identifier: EmailToReceiver
+  -
+    options:
+      pageUid: '565'
+      additionalParameters: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Name, Vorname'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Telefonnummer
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty

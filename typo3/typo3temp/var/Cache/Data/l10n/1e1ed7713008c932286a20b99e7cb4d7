@@ -1,0 +1,347 @@
+a:102:{s:12:".description";a:1:{i:0;a:2:{s:6:"source";s:235:"All visible content on webpages is typically made by "Page Content" records, often referred to as "Content Elements". Content Elements are managed by the "Page" Module which organizes Content Elements in multiple columns and languages.";s:6:"target";s:235:"All visible content on webpages is typically made by "Page Content" records, often referred to as "Content Elements". Content Elements are managed by the "Page" Module which organizes Content Elements in multiple columns and languages.";}}s:8:".details";a:1:{i:0;a:2:{s:6:"source";s:299:""Page Content" records are sortable and can be rearranged. The "Language" and "Column" selectors of the "Page Content" records determines when and where they appear. If you do not change the value of the "Language" and "Column" selectors the Content Element will appear in the default configuration.";s:6:"target";s:299:""Page Content" records are sortable and can be rearranged. The "Language" and "Column" selectors of the "Page Content" records determines when and where they appear. If you do not change the value of the "Language" and "Column" selectors the Content Element will appear in the default configuration.";}}s:9:"_.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:128:"Page Content Principles | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout";s:6:"target";s:128:"Page Content Principles | https://docs.typo3.org/typo3cms/GettingStartedTutorial/GeneralPrinciples/PageContent/,
+_MOD_web_layout";}}s:7:"_.image";a:1:{i:0;a:2:{s:6:"source";s:190:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png";s:6:"target";s:190:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_2.png,
+EXT:frontend/Resources/Public/Images/cshimages/ttcontent_3.png";}}s:12:".image_descr";a:1:{i:0;a:2:{s:6:"source";s:263:"The Page Module is used to manage Content Elements arranged in columns and languages.
+A Content Element has an editing form with many options. The "Type" determines which options are visible.
+In the Frontend, a Content Element like the above could look like this.";s:6:"target";s:263:"The Page Module is used to manage Content Elements arranged in columns and languages.
+A Content Element has an editing form with many options. The "Type" determines which options are visible.
+In the Frontend, a Content Element like the above could look like this.";}}s:17:"CType.description";a:1:{i:0;a:2:{s:6:"source";s:106:"Select the kind of Page Content this element represents. New options will appear when you save the record.";s:6:"target";s:106:"Select the kind of Page Content this element represents. New options will appear when you save the record.";}}s:13:"CType.details";a:1:{i:0;a:2:{s:6:"source";s:2396:"The 'Type' of content you select determines which options are available in the editing form so be sure to save the record before making other changes.
+
+This is a description of the various types:
+
+<strong>Header</strong>
+This type allows you to insert a standard Content Element header and nothing more.
+Almost all the other types described below also include the Header and its options. The Header type provides a way to insert a header without any other content.
+
+<strong>Text</strong>
+The Text type allows you to insert regular page content. It is generally used for text only content.
+
+<strong>Text & Images</strong>
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+<strong>Image</strong>
+The Image type allows you to insert image only page content.
+
+<strong>Bullet List</strong>
+Lets you create a bullet list. Each line in the text field will appear as a single bullet.
+
+<strong>Table</strong>
+Lets you create <em>simple</em> tables. Each line represents a row in the table and vertical bars ('|') separate each column. A popup wizard is also available.
+
+<strong>File Links</strong>
+Allows you to present a list of files for download. Thumbnails can be attached to the list and you can also display the file size.
+
+<strong>Form</strong>
+Lets you create mail forms using a special syntax or a popup wizard.
+
+<strong>Search</strong>
+This inserts a search box and also shows the search results when a search is performed on the page.
+
+<strong>Login</strong>
+Displays a login box for website users. This is only useful if you have already created website users and usergroups.
+
+<strong>Menu/Sitemap</strong>
+Offers a selection of menus and a sitemap you can insert on a page.
+
+<strong>Insert records</strong>
+This acts as placeholder for other records. With this Content Element, you can resuse multiple content elements from other pages.
+
+<strong>Insert plugin</strong>
+This will allows you to insert news, forums, guestbooks, lists of addresses, and other functionality. Plugins are typically provided by TYPO3 extensions. The available fields and required configuration depend on the extension.
+
+<strong>Divider</strong>
+This inserts a simple horizontal rule on a page.
+
+<strong>HTML</strong>
+This is plain HTML content. Anything added in the HTML Code of this Content Element will be displayed directly on the page without any preprocessing.";s:6:"target";s:2396:"The 'Type' of content you select determines which options are available in the editing form so be sure to save the record before making other changes.
+
+This is a description of the various types:
+
+<strong>Header</strong>
+This type allows you to insert a standard Content Element header and nothing more.
+Almost all the other types described below also include the Header and its options. The Header type provides a way to insert a header without any other content.
+
+<strong>Text</strong>
+The Text type allows you to insert regular page content. It is generally used for text only content.
+
+<strong>Text & Images</strong>
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+<strong>Image</strong>
+The Image type allows you to insert image only page content.
+
+<strong>Bullet List</strong>
+Lets you create a bullet list. Each line in the text field will appear as a single bullet.
+
+<strong>Table</strong>
+Lets you create <em>simple</em> tables. Each line represents a row in the table and vertical bars ('|') separate each column. A popup wizard is also available.
+
+<strong>File Links</strong>
+Allows you to present a list of files for download. Thumbnails can be attached to the list and you can also display the file size.
+
+<strong>Form</strong>
+Lets you create mail forms using a special syntax or a popup wizard.
+
+<strong>Search</strong>
+This inserts a search box and also shows the search results when a search is performed on the page.
+
+<strong>Login</strong>
+Displays a login box for website users. This is only useful if you have already created website users and usergroups.
+
+<strong>Menu/Sitemap</strong>
+Offers a selection of menus and a sitemap you can insert on a page.
+
+<strong>Insert records</strong>
+This acts as placeholder for other records. With this Content Element, you can resuse multiple content elements from other pages.
+
+<strong>Insert plugin</strong>
+This will allows you to insert news, forums, guestbooks, lists of addresses, and other functionality. Plugins are typically provided by TYPO3 extensions. The available fields and required configuration depend on the extension.
+
+<strong>Divider</strong>
+This inserts a simple horizontal rule on a page.
+
+<strong>HTML</strong>
+This is plain HTML content. Anything added in the HTML Code of this Content Element will be displayed directly on the page without any preprocessing.";}}s:14:"_CType.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:173:"tt_content:colPos,
+tt_content:sys_language_uid,
+About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/";s:6:"target";s:173:"tt_content:colPos,
+tt_content:sys_language_uid,
+About Content Elements | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/EditPageContent/";}}s:12:"_CType.image";a:1:{i:0;a:2:{s:6:"source";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png";s:6:"target";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_4.png";}}s:18:"hidden.description";a:1:{i:0;a:2:{s:6:"source";s:106:"Check this box if you wish to disable the Content Element and keep it from being displayed on the website.";s:6:"target";s:106:"Check this box if you wish to disable the Content Element and keep it from being displayed on the website.";}}s:15:"_hidden.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:109:"tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid";s:6:"target";s:109:"tt_content:starttime,
+tt_content:endtime,
+tt_content:fe_group,
+tt_content:colPos,
+tt_content:sys_language_uid";}}s:21:"starttime.description";a:1:{i:0;a:2:{s:6:"source";s:89:"Enter the date when the Content Element should be published and displayed on the website.";s:6:"target";s:89:"Enter the date when the Content Element should be published and displayed on the website.";}}s:18:"_starttime.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:75:"pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group";s:6:"target";s:75:"pages:starttime,
+tt_content:endtime,
+tt_content:hidden,
+tt_content:fe_group";}}s:19:"endtime.description";a:1:{i:0;a:2:{s:6:"source";s:85:"Enter the date when the Content Element should expire and disappear from the website.";s:6:"target";s:85:"Enter the date when the Content Element should expire and disappear from the website.";}}s:16:"_endtime.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:75:"pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group";s:6:"target";s:75:"pages:endtime,
+tt_content:starttime,
+tt_content:hidden,
+tt_content:fe_group";}}s:20:"fe_group.description";a:1:{i:0;a:2:{s:6:"source";s:403:"If Usergroup Access Rights are set to a usergroup name, only website users who are logged in and members of the selected usergroup will be able to view the Content Element. The special option 'Hide at Login' means the Content Element will <em>not</em> be visible for any website users that are logged in. Likewise "Show at Any Login" will make the Content Element visible for any logged in website user.";s:6:"target";s:403:"If Usergroup Access Rights are set to a usergroup name, only website users who are logged in and members of the selected usergroup will be able to view the Content Element. The special option 'Hide at Login' means the Content Element will <em>not</em> be visible for any website users that are logged in. Likewise "Show at Any Login" will make the Content Element visible for any logged in website user.";}}s:16:"fe_group.details";a:1:{i:0;a:2:{s:6:"source";s:161:"The 'Hide at Login' option is is useful if you want to present information like "How to Login" that becomes irrelevant when a website user is actually logged in.";s:6:"target";s:161:"The 'Hide at Login' option is is useful if you want to present information like "How to Login" that becomes irrelevant when a website user is actually logged in.";}}s:17:"_fe_group.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:96:"tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups";s:6:"target";s:96:"tt_content:hidden,
+tt_content:starttime,
+tt_content:endtime,
+pages:fe_group,
+fe_users,
+fe_groups";}}s:28:"sys_language_uid.description";a:1:{i:0;a:2:{s:6:"source";s:162:"Select the system language of this Content Element. <strong>Notice:</strong> This will affect the Content Element visibility by limiting it to a certain language.";s:6:"target";s:162:"Select the system language of this Content Element. <strong>Notice:</strong> This will affect the Content Element visibility by limiting it to a certain language.";}}s:24:"sys_language_uid.details";a:1:{i:0;a:2:{s:6:"source";s:297:"This allows you to assign a specific language to the Content Element. If you select anything but the default value, the element will <em>not</em> be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.";s:6:"target";s:297:"This allows you to assign a specific language to the Content Element. If you select anything but the default value, the element will <em>not</em> be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.";}}s:25:"_sys_language_uid.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:173:"tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list";s:6:"target";s:173:"tt_content:colPos,
+sys_language,
+Localization concepts [Technical] | http://typo3.org/documentation/tips-tricks/multi-language-sites-in-typo3/,
+_MOD_web_layout:language_list";}}s:18:"layout.description";a:1:{i:0;a:2:{s:6:"source";s:16:"Select a Layout.";s:6:"target";s:16:"Select a Layout.";}}s:14:"layout.details";a:1:{i:0;a:2:{s:6:"source";s:517:"This option does not work by default for all Content Elements but your website may display Content Elements differently depending on the layout.
+
+The File Links Content Element does make use of the Layout field by default:
+"Normal" will provide a list of file links with no thumbnail.
+"Layout 1" adds a file icon to the left of the link
+"Layout 2" adds a thumbnail for image files and an icon for other files. A black border is wrapped around the icon.
+"Layout 3" is similar to Layout 2, but without the black border.";s:6:"target";s:517:"This option does not work by default for all Content Elements but your website may display Content Elements differently depending on the layout.
+
+The File Links Content Element does make use of the Layout field by default:
+"Normal" will provide a list of file links with no thumbnail.
+"Layout 1" adds a file icon to the left of the link
+"Layout 2" adds a thumbnail for image files and an icon for other files. A black border is wrapped around the icon.
+"Layout 3" is similar to Layout 2, but without the black border.";}}s:18:"colPos.description";a:1:{i:0;a:2:{s:6:"source";s:159:"Select the column position of this element. <strong>Notice:</strong> This may affect whether the Content Element is visible depending on your website template.";s:6:"target";s:159:"Select the column position of this element. <strong>Notice:</strong> This may affect whether the Content Element is visible depending on your website template.";}}s:14:"colPos.details";a:1:{i:0;a:2:{s:6:"source";s:404:"Many websites only use one column of content. Some templates, however, let you put content in multiple columns using the Column option.
+
+<strong>Notice:</strong> Selecting a column other than "Normal" may cause the Content Element to disappear if the website template does not use that column. If your Content Element mysteriously disappears make sure the Column and Language selectors are set correctly.";s:6:"target";s:404:"Many websites only use one column of content. Some templates, however, let you put content in multiple columns using the Column option.
+
+<strong>Notice:</strong> Selecting a column other than "Normal" may cause the Content Element to disappear if the website template does not use that column. If your Content Element mysteriously disappears make sure the Column and Language selectors are set correctly.";}}s:15:"_colPos.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:90:"tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single";s:6:"target";s:90:"tt_content:sys_language_uid,
+_MOD_web_layout:columns_multi,
+_MOD_web_layout:columns_single";}}s:16:"date.description";a:1:{i:0;a:2:{s:6:"source";s:46:"Enter a date to be displayed above the header.";s:6:"target";s:46:"Enter a date to be displayed above the header.";}}s:18:"header.description";a:1:{i:0;a:2:{s:6:"source";s:42:"Enter header text for the Content Element.";s:6:"target";s:42:"Enter header text for the Content Element.";}}s:14:"header.details";a:1:{i:0;a:2:{s:6:"source";s:382:"Almost all Content Elements will display this header above the content. If you don't want the header displayed, set the header Layout to "Hidden". You can also choose not to enter any content in this field.
+
+Some content element types do not display the header by default. In those cases the Header field is typically labeled "Name" instead. One example is the HTML Content Element.";s:6:"target";s:382:"Almost all Content Elements will display this header above the content. If you don't want the header displayed, set the header Layout to "Hidden". You can also choose not to enter any content in this field.
+
+Some content element types do not display the header by default. In those cases the Header field is typically labeled "Name" instead. One example is the HTML Content Element.";}}s:15:"_header.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:94:"tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,";s:6:"target";s:94:"tt_content:header_position,
+tt_content:header_link,
+tt_content:header_layout,
+tt_content:date,";}}s:13:"_header.image";a:1:{i:0;a:2:{s:6:"source";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png";s:6:"target";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_6.png";}}s:27:"header_position.description";a:1:{i:0;a:2:{s:6:"source";s:48:"Aligns the header to the left, center, or right.";s:6:"target";s:48:"Aligns the header to the left, center, or right.";}}s:24:"_header_position.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:17:"tt_content:header";s:6:"target";s:17:"tt_content:header";}}s:23:"header_link.description";a:1:{i:0;a:2:{s:6:"source";s:67:"Creates a link from the header to a Page ID, email address, or URL.";s:6:"target";s:67:"Creates a link from the header to a Page ID, email address, or URL.";}}s:18:"header_link.syntax";a:1:{i:0;a:2:{s:6:"source";s:318:"If you insert a Page ID (ex. 51), the link will point to the page with id=51 <em>inside</em> TYPO3.
+If you insert an email address (ex. name@my-domain.test), the link will point to that email address.
+If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org), the link will point to that website.";s:6:"target";s:318:"If you insert a Page ID (ex. 51), the link will point to the page with id=51 <em>inside</em> TYPO3.
+If you insert an email address (ex. name@my-domain.test), the link will point to that email address.
+If you insert an URL or domain, (ex. www.typo3.org or http://www.my-domain.org), the link will point to that website.";}}s:20:"_header_link.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:17:"tt_content:header";s:6:"target";s:17:"tt_content:header";}}s:25:"header_layout.description";a:1:{i:0;a:2:{s:6:"source";s:38:"Select a visual design for the header.";s:6:"target";s:38:"Select a visual design for the header.";}}s:21:"header_layout.details";a:1:{i:0;a:2:{s:6:"source";s:412:"If you select "Default" the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select "Hidden" the header will simply not appear. This is useful when you don't need a header to display on the website but still want to identify the Content Element in the Backend.";s:6:"target";s:412:"If you select "Default" the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select "Hidden" the header will simply not appear. This is useful when you don't need a header to display on the website but still want to identify the Content Element in the Backend.";}}s:22:"_header_layout.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:17:"tt_content:header";s:6:"target";s:17:"tt_content:header";}}s:21:"subheader.description";a:1:{i:0;a:2:{s:6:"source";s:142:"Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.";s:6:"target";s:142:"Enter a subheader to be displayed below the main header. If the Content Element is a "Form" this field is instead used as the Recipient Email.";}}s:17:"subheader.details";a:1:{i:0;a:2:{s:6:"source";s:119:"A subheader is displayed only with "Header" Content Elements and with "Form" Content Elements (as the Recipient Email).";s:6:"target";s:119:"A subheader is displayed only with "Header" Content Elements and with "Form" Content Elements (as the Recipient Email).";}}s:18:"_subheader.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:37:"tt_content:header
+tt_content:bodytext";s:6:"target";s:37:"tt_content:header
+tt_content:bodytext";}}s:20:"bodytext.description";a:1:{i:0;a:2:{s:6:"source";s:20:"Enter the main text.";s:6:"target";s:20:"Enter the main text.";}}s:16:"bodytext.details";a:1:{i:0;a:2:{s:6:"source";s:1093:"The main text of the Content Element is entered here and can be formatted with HTML or a Rich Text Editor.
+The field is reused in other Content Element types so changing the type will cause any text to be reused in that new Content Element type.
+
+When you're using this field with the "Text" and "Text & Images" types, the content is normal body text. Each linebreak signifies a new paragraph, you can use the special TYPO3 tag, &lt;LINK&gt;, for making links. You can use many HTML tags but there are limitations depending on your website configuration.
+A Rich Text Editor is commonly used to add a visual editing interface for 'Text' and 'Text & Images' Content Elements.
+
+<b>Bullet Lists:</b>
+If the type is "Bullet List" each line in this field is a bullet item.
+
+<b>Tables:</b>
+If the type is "Table" each line represents a table row. Within each line, columns are divided by a vertical bar ('|'). A table row with 3 columns could look like "This is column 1 | Column 2 here | Third column!". The table wizard can also be used for creating tables and is much easier than hand coding them.";s:6:"target";s:1093:"The main text of the Content Element is entered here and can be formatted with HTML or a Rich Text Editor.
+The field is reused in other Content Element types so changing the type will cause any text to be reused in that new Content Element type.
+
+When you're using this field with the "Text" and "Text & Images" types, the content is normal body text. Each linebreak signifies a new paragraph, you can use the special TYPO3 tag, &lt;LINK&gt;, for making links. You can use many HTML tags but there are limitations depending on your website configuration.
+A Rich Text Editor is commonly used to add a visual editing interface for 'Text' and 'Text & Images' Content Elements.
+
+<b>Bullet Lists:</b>
+If the type is "Bullet List" each line in this field is a bullet item.
+
+<b>Tables:</b>
+If the type is "Table" each line represents a table row. Within each line, columns are divided by a vertical bar ('|'). A table row with 3 columns could look like "This is column 1 | Column 2 here | Third column!". The table wizard can also be used for creating tables and is much easier than hand coding them.";}}s:17:"_bodytext.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:72:"tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz";s:6:"target";s:72:"tt_content:CType,
+tt_content:subheader,
+xMOD_csh_corebe:wizard_table_wiz";}}s:17:"image.description";a:1:{i:0;a:2:{s:6:"source";s:26:"Insert one or more images.";s:6:"target";s:26:"Insert one or more images.";}}s:13:"image.details";a:1:{i:0;a:2:{s:6:"source";s:566:"You can attach multiple images to the Content Element.
+Depending on the configuration of TYPO3, you can attach images in many formats without worrying about size and compression. TYPO3's graphics processing handles these details for you.
+
+When you use the "Text & Images" type, it's important to select a proper position for images. For this purpose, use the Position and Aligment selector. See link to "Page Content / Position" below.
+You can also display images in multiple columns and even enable an option that opens full size images when thumbnails are clicked.";s:6:"target";s:566:"You can attach multiple images to the Content Element.
+Depending on the configuration of TYPO3, you can attach images in many formats without worrying about size and compression. TYPO3's graphics processing handles these details for you.
+
+When you use the "Text & Images" type, it's important to select a proper position for images. For this purpose, use the Position and Aligment selector. See link to "Page Content / Position" below.
+You can also display images in multiple columns and even enable an option that opens full size images when thumbnails are clicked.";}}s:14:"_image.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:415:"tt_content:imagewidth,
+tt_content:imageheight,
+tt_content:imageorient,
+tt_content:imageborder,
+tt_content:image_link,
+tt_content:image_zoom,
+tt_content:imagecols,
+tt_content:imagecaption,
+tt_content:image_frames,
+Using images ("Getting Started") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif";s:6:"target";s:415:"tt_content:imagewidth,
+tt_content:imageheight,
+tt_content:imageorient,
+tt_content:imageborder,
+tt_content:image_link,
+tt_content:image_zoom,
+tt_content:imagecols,
+tt_content:imagecaption,
+tt_content:image_frames,
+Using images ("Getting Started") | https://docs.typo3.org/typo3cms/GettingStartedTutorial/TheFileModuleOrImageArchives/ManagingFilesInTypo3/
+Using images (Animation) | FILE:EXT:welcome/modsub/ani_10.gif";}}s:12:"_image.image";a:1:{i:0;a:2:{s:6:"source";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png";s:6:"target";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_5.png";}}s:17:"image.image_descr";a:1:{i:0;a:2:{s:6:"source";s:146:"This shows all the options related to inserting images in Content Elements. Depending on user permissions, you may not be able to use all of them.";s:6:"target";s:146:"This shows all the options related to inserting images in Content Elements. Depending on user permissions, you may not be able to use all of them.";}}s:22:"imagewidth.description";a:1:{i:0;a:2:{s:6:"source";s:85:"Enter the width (in pixels) for displaying the image in the Frontend of your website.";s:6:"target";s:85:"Enter the width (in pixels) for displaying the image in the Frontend of your website.";}}s:18:"imagewidth.details";a:1:{i:0;a:2:{s:6:"source";s:175:"The TypoScript template is normally configured with maximum image width so you shouldn't need to specify a width. In unique cases, this provides additional flexibility though.";s:6:"target";s:175:"The TypoScript template is normally configured with maximum image width so you shouldn't need to specify a width. In unique cases, this provides additional flexibility though.";}}s:19:"_imagewidth.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:40:"tt_content:imageheight,
+tt_content:image";s:6:"target";s:40:"tt_content:imageheight,
+tt_content:image";}}s:23:"imageheight.description";a:1:{i:0;a:2:{s:6:"source";s:87:"Enter the height (in pixels) for displaying the images in the Frontend of your website.";s:6:"target";s:87:"Enter the height (in pixels) for displaying the images in the Frontend of your website.";}}s:20:"_imageheight.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:39:"tt_content:imagewidth,
+tt_content:image";s:6:"target";s:39:"tt_content:imagewidth,
+tt_content:image";}}s:23:"imageorient.description";a:1:{i:0;a:2:{s:6:"source";s:74:"Select the position and alignment of the images relative to the body text.";s:6:"target";s:74:"Select the position and alignment of the images relative to the body text.";}}s:19:"imageorient.details";a:1:{i:0;a:2:{s:6:"source";s:1081:"The positions above and below the body text are pretty straight forward.
+The options for "In text" mean that images are displayed with text wrapped around them. When you select this option the template will probably force the images into smaller dimensions to accommodate the width of the template and the width of the text. The bodytext will float <em>under</em> the image block when it reaches the end of the image block. In other words, the body text <em>wraps around</em> the image block. If you select "In text" below the "No wrap" divider, the body text will not float under the image block, but simply continue in its column.
+Apart from the visual difference there is a technical aspect as well. If you choose to allow the content to wrap the image block you will experience a strange phenomenon when you do not have enough bodytext to make it float around the image: subsequent content elements on the page will appear to be layered on top of the image block. However it's easily solved by changing the "In text" position to the equal value but below the "No wrap" divider.";s:6:"target";s:1081:"The positions above and below the body text are pretty straight forward.
+The options for "In text" mean that images are displayed with text wrapped around them. When you select this option the template will probably force the images into smaller dimensions to accommodate the width of the template and the width of the text. The bodytext will float <em>under</em> the image block when it reaches the end of the image block. In other words, the body text <em>wraps around</em> the image block. If you select "In text" below the "No wrap" divider, the body text will not float under the image block, but simply continue in its column.
+Apart from the visual difference there is a technical aspect as well. If you choose to allow the content to wrap the image block you will experience a strange phenomenon when you do not have enough bodytext to make it float around the image: subsequent content elements on the page will appear to be layered on top of the image block. However it's easily solved by changing the "In text" position to the equal value but below the "No wrap" divider.";}}s:23:"imageborder.description";a:1:{i:0;a:2:{s:6:"source";s:44:"Displays a colored border around the images.";s:6:"target";s:44:"Displays a colored border around the images.";}}s:20:"_imageborder.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:38:"tt_content:imagecols,
+tt_content:image";s:6:"target";s:38:"tt_content:imagecols,
+tt_content:image";}}s:22:"image_link.description";a:1:{i:0;a:2:{s:6:"source";s:80:"Enter a link for the image. For multiple images, separate the links with commas.";s:6:"target";s:80:"Enter a link for the image. For multiple images, separate the links with commas.";}}s:18:"image_link.details";a:1:{i:0;a:2:{s:6:"source";s:243:"By default all images share the same link. Your TypoScript template may be configured to allow a separate link for each image. If this is the case, you simply separate the links with a comma.
+
+See Page Content>Link below for details on syntax.";s:6:"target";s:243:"By default all images share the same link. Your TypoScript template may be configured to allow a separate link for each image. If this is the case, you simply separate the links with a comma.
+
+See Page Content>Link below for details on syntax.";}}s:19:"_image_link.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:63:"tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image";s:6:"target";s:63:"tt_content:header_link,
+tt_content:image_zoom,
+tt_content:image";}}s:22:"image_zoom.description";a:1:{i:0;a:2:{s:6:"source";s:77:"When enabled, clicking an image will open a larger version in a popup window.";s:6:"target";s:77:"When enabled, clicking an image will open a larger version in a popup window.";}}s:18:"image_zoom.details";a:1:{i:0;a:2:{s:6:"source";s:51:"This option overrides the value in the Links field.";s:6:"target";s:51:"This option overrides the value in the Links field.";}}s:19:"_image_zoom.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:39:"tt_content:image_link,
+tt_content:image";s:6:"target";s:39:"tt_content:image_link,
+tt_content:image";}}s:24:"image_frames.description";a:1:{i:0;a:2:{s:6:"source";s:37:"Select special image framing options.";s:6:"target";s:37:"Select special image framing options.";}}s:21:"_image_frames.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:16:"tt_content:image";s:6:"target";s:16:"tt_content:image";}}s:21:"imagecols.description";a:1:{i:0;a:2:{s:6:"source";s:87:"Set the number of columns when the images are displayed in the Frontend of the website.";s:6:"target";s:87:"Set the number of columns when the images are displayed in the Frontend of the website.";}}s:18:"_imagecols.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:16:"tt_content:image";s:6:"target";s:16:"tt_content:image";}}s:24:"imagecaption.description";a:1:{i:0;a:2:{s:6:"source";s:79:"Enter captions for the images. For multiple images, enter one caption per line.";s:6:"target";s:79:"Enter captions for the images. For multiple images, enter one caption per line.";}}s:20:"imagecaption.details";a:1:{i:0;a:2:{s:6:"source";s:467:"By default, the caption is positioned below the images. However, your TypoScript template may be configured to allow individual image captions by setting "styles.content.imgtext.captionSplit=1" in your template constants.
+In this case, each line in this field will be the image caption of the corresponding image in the list.
+
+The caption text field is also used by the Content Element type "File Links" where each line represents a description of a file in the list.";s:6:"target";s:467:"By default, the caption is positioned below the images. However, your TypoScript template may be configured to allow individual image captions by setting "styles.content.imgtext.captionSplit=1" in your template constants.
+In this case, each line in this field will be the image caption of the corresponding image in the list.
+
+The caption text field is also used by the Content Element type "File Links" where each line represents a description of a file in the list.";}}s:16:"cols.description";a:1:{i:0;a:2:{s:6:"source";s:38:"Select a fixed number of table columns";s:6:"target";s:38:"Select a fixed number of table columns";}}s:17:"pages.description";a:1:{i:0;a:2:{s:6:"source";s:46:"Select a target page or multiple target pages.";s:6:"target";s:46:"Select a target page or multiple target pages.";}}s:13:"pages.details";a:1:{i:0;a:2:{s:6:"source";s:1621:"This field is used by many of the Content Element types to create a relation to either a single target page or multiple target pages. If no target page is specified, the current page will generally be used.
+
+Using the "Search" Content Element, the target page is where search results will appear. You must make sure that this page has a similar "Search" Content Element to display the results.
+
+The "Login" Content Element (not to be confused with the Login plugin available when the felogin extension is installed) also uses this field to redirect the login to a certain page. That page does not need to contain a "Login" Content Element in order to perform the authentication since any TYPO3 page can handle a login request.
+If you specify a second page in this list, the ID will be passed to the login system as the page inside TYPO3 where website users are found. You should use this only if your template is not already configured to pass this value on.
+In order for the login procedure to work you must make sure that you have created website users and website usergroups, have specified where these website users can be found (typically a SysFolder), a page ID in the page list, and ensured that cookies are enabled for the site.
+
+The "Menu/Sitemap" Content Elements also use this field. In this case the page will determine the starting point for the menu or the actual pages shown in the menu. This behavior depends on the menu type you have selected.
+
+Finally the "Form" element uses this field as the target page to which the form is submitted. A common use is the "Thank you" page after the form is completed.";s:6:"target";s:1621:"This field is used by many of the Content Element types to create a relation to either a single target page or multiple target pages. If no target page is specified, the current page will generally be used.
+
+Using the "Search" Content Element, the target page is where search results will appear. You must make sure that this page has a similar "Search" Content Element to display the results.
+
+The "Login" Content Element (not to be confused with the Login plugin available when the felogin extension is installed) also uses this field to redirect the login to a certain page. That page does not need to contain a "Login" Content Element in order to perform the authentication since any TYPO3 page can handle a login request.
+If you specify a second page in this list, the ID will be passed to the login system as the page inside TYPO3 where website users are found. You should use this only if your template is not already configured to pass this value on.
+In order for the login procedure to work you must make sure that you have created website users and website usergroups, have specified where these website users can be found (typically a SysFolder), a page ID in the page list, and ensured that cookies are enabled for the site.
+
+The "Menu/Sitemap" Content Elements also use this field. In this case the page will determine the starting point for the menu or the actual pages shown in the menu. This behavior depends on the menu type you have selected.
+
+Finally the "Form" element uses this field as the target page to which the form is submitted. A common use is the "Thank you" page after the form is completed.";}}s:14:"_pages.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:38:"tt_content:CType,
+tt_content:recursive";s:6:"target";s:38:"tt_content:CType,
+tt_content:recursive";}}s:21:"recursive.description";a:1:{i:0;a:2:{s:6:"source";s:84:"The number of subpage levels that should also be included for each page in the list.";s:6:"target";s:84:"The number of subpage levels that should also be included for each page in the list.";}}s:17:"recursive.details";a:1:{i:0;a:2:{s:6:"source";s:316:"This feature depends on the TypoScript template configuration and Content Element type. If enabled, each page listed in the "Pages" field will also have its subpages included to the specified depth.
+
+<strong>Warning:</strong> If there are many subpages, be aware that this option may return a large number of results";s:6:"target";s:316:"This feature depends on the TypoScript template configuration and Content Element type. If enabled, each page listed in the "Pages" field will also have its subpages included to the specified depth.
+
+<strong>Warning:</strong> If there are many subpages, be aware that this option may return a large number of results";}}s:18:"_recursive.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:16:"tt_content:pages";s:6:"target";s:16:"tt_content:pages";}}s:21:"menu_type.description";a:1:{i:0;a:2:{s:6:"source";s:43:"Select the type of menu you wish to create.";s:6:"target";s:43:"Select the type of menu you wish to create.";}}s:17:"menu_type.details";a:1:{i:0;a:2:{s:6:"source";s:1807:"This is a short description of each type:
+
+<strong>Menu of selected pages</strong>
+This will create a menu with links to the pages in the Selected Pages list.
+
+<strong>Menu of subpages of selected pages</strong>
+This will create in a menu with links to the subpages of the pages in the Selected Pages list. If you do not specify any pages, the subpages to the current page will be used.
+
+<strong>Menu of subpages of selected pages (with abstract)</strong>
+Like the previous option, but also displays the content of the Abstract field (or the Description field) for each page in the menu. The Abstract field is given priority over the Description field if both are complete.
+
+<strong>Menu of subpages of selected pages + sections</strong>
+Like the previous option, but includes links to all Content Elements on the page that are marked to Show In Section Menus.
+
+<strong>Sitemap</strong>
+Generates a classic tree sitemap. Notice that the sitemap will begin from the current page unless you select another page instead.
+
+<strong>Section index (page content marked for section menus)</strong>
+This makes a menu of Content Elements on the selected pages for all Content Elements marked to Show In Section Menu. This is a great way to make an index at the top of the page.
+If you don't want certain Content Elements to appear in the list, just uncheck the Show in Section Menus checkbox for those elements.
+
+<strong>Recently updated pages</strong>
+This displays the 10 most recently updated pages.
+<strong>Notice:</strong> If you update a page and the updated page is not included in this list, clearing the Page Cache will resolve the issue.
+
+<strong>Related pages (based on keywords)</strong>
+Displays other related pages based on the keywords of the selected pages matched against the keywords of other pages.";s:6:"target";s:1807:"This is a short description of each type:
+
+<strong>Menu of selected pages</strong>
+This will create a menu with links to the pages in the Selected Pages list.
+
+<strong>Menu of subpages of selected pages</strong>
+This will create in a menu with links to the subpages of the pages in the Selected Pages list. If you do not specify any pages, the subpages to the current page will be used.
+
+<strong>Menu of subpages of selected pages (with abstract)</strong>
+Like the previous option, but also displays the content of the Abstract field (or the Description field) for each page in the menu. The Abstract field is given priority over the Description field if both are complete.
+
+<strong>Menu of subpages of selected pages + sections</strong>
+Like the previous option, but includes links to all Content Elements on the page that are marked to Show In Section Menus.
+
+<strong>Sitemap</strong>
+Generates a classic tree sitemap. Notice that the sitemap will begin from the current page unless you select another page instead.
+
+<strong>Section index (page content marked for section menus)</strong>
+This makes a menu of Content Elements on the selected pages for all Content Elements marked to Show In Section Menu. This is a great way to make an index at the top of the page.
+If you don't want certain Content Elements to appear in the list, just uncheck the Show in Section Menus checkbox for those elements.
+
+<strong>Recently updated pages</strong>
+This displays the 10 most recently updated pages.
+<strong>Notice:</strong> If you update a page and the updated page is not included in this list, clearing the Page Cache will resolve the issue.
+
+<strong>Related pages (based on keywords)</strong>
+Displays other related pages based on the keywords of the selected pages matched against the keywords of other pages.";}}s:18:"_menu_type.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:41:"tt_content:pages,
+tt_content:sectionIndex";s:6:"target";s:41:"tt_content:pages,
+tt_content:sectionIndex";}}s:21:"list_type.description";a:1:{i:0;a:2:{s:6:"source";s:26:"Select a plugin to insert.";s:6:"target";s:26:"Select a plugin to insert.";}}s:17:"list_type.details";a:1:{i:0;a:2:{s:6:"source";s:109:"The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.";s:6:"target";s:109:"The list of plugins you can insert on a page. The available plugins depend on which extensions are installed.";}}s:18:"_list_type.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:13:"_MOD_tools_em";s:6:"target";s:13:"_MOD_tools_em";}}s:16:"_list_type.image";a:1:{i:0;a:2:{s:6:"source";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png";s:6:"target";s:62:"EXT:frontend/Resources/Public/Images/cshimages/ttcontent_7.png";}}s:17:"media.description";a:1:{i:0;a:2:{s:6:"source";s:36:"Files can be added to the list here.";s:6:"target";s:36:"Files can be added to the list here.";}}s:22:"multimedia.description";a:1:{i:0;a:2:{s:6:"source";s:50:"Insert a multimedia element here (ex. Flash movie)";s:6:"target";s:50:"Insert a multimedia element here (ex. Flash movie)";}}s:25:"filelink_size.description";a:1:{i:0;a:2:{s:6:"source";s:33:"Enable the display of file sizes.";s:6:"target";s:33:"Enable the display of file sizes.";}}s:19:"records.description";a:1:{i:0;a:2:{s:6:"source";s:44:"Insert records to be displayed on this page.";s:6:"target";s:44:"Insert records to be displayed on this page.";}}s:23:"spaceBefore.description";a:1:{i:0;a:2:{s:6:"source";s:79:"Top Margin (in pixels) inserts whitespace <em>before</em> this Content Element.";s:6:"target";s:79:"Top Margin (in pixels) inserts whitespace <em>before</em> this Content Element.";}}s:20:"_spaceBefore.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:21:"tt_content:spaceAfter";s:6:"target";s:21:"tt_content:spaceAfter";}}s:22:"spaceAfter.description";a:1:{i:0;a:2:{s:6:"source";s:81:"Bottom Margin (in pixels) inserts whitespace <em>after</em> this Content Element.";s:6:"target";s:81:"Bottom Margin (in pixels) inserts whitespace <em>after</em> this Content Element.";}}s:19:"_spaceAfter.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:22:"tt_content:spaceBefore";s:6:"target";s:22:"tt_content:spaceBefore";}}s:24:"sectionIndex.description";a:1:{i:0;a:2:{s:6:"source";s:57:"If set, the Content Element will appear in Section Menus.";s:6:"target";s:57:"If set, the Content Element will appear in Section Menus.";}}s:20:"sectionIndex.details";a:1:{i:0;a:2:{s:6:"source";s:55:"See more details about Section Menus by clicking below.";s:6:"target";s:55:"See more details about Section Menus by clicking below.";}}s:21:"_sectionIndex.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:20:"tt_content:menu_type";s:6:"target";s:20:"tt_content:menu_type";}}s:21:"linkToTop.description";a:1:{i:0;a:2:{s:6:"source";s:112:"If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.";s:6:"target";s:112:"If checked, a small  "To Top" link will be added after the Content Element, linking back to the top of the page.";}}s:23:"rte_enabled.description";a:1:{i:0;a:2:{s:6:"source";s:130:"If checked, the Rich Text Editor will be disabled for the "Text" and "Text & Image" types (<em>in this Content Element only</em>).";s:6:"target";s:130:"If checked, the Rich Text Editor will be disabled for the "Text" and "Text & Image" types (<em>in this Content Element only</em>).";}}s:20:"_rte_enabled.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:19:"tt_content:bodytext";s:6:"target";s:19:"tt_content:bodytext";}}s:23:"pi_flexform.description";a:1:{i:0;a:2:{s:6:"source";s:20:"Plugin Configuration";s:6:"target";s:20:"Plugin Configuration";}}s:19:"pi_flexform.details";a:1:{i:0;a:2:{s:6:"source";s:163:"Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.";s:6:"target";s:163:"Some plugins may provide configuration options, but the actual options vary based on the plugin. Behind the scenes, these are based on FlexForms and stored as XML.";}}s:20:"_pi_flexform.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:20:"tt_content:list_type";s:6:"target";s:20:"tt_content:list_type";}}}

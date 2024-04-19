@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="defaultOperands.0">Alle Wörter (UND)</label>
+			<label index="defaultOperands.1">Jedes Wort (ODER)</label>
+			<label index="displayResults">Anzeige der Ergebnisse &lt;strong&gt;%1$s bis %2$s&lt;/strong&gt; von insgesamt &lt;strong&gt;%3$s&lt;/strong&gt;</label>
+			<label index="displayResults.next">Nächste &gt;</label>
+			<label index="displayResults.page">Seite</label>
+			<label index="displayResults.previous">&lt; Zurück</label>
+			<label index="form.addToSearch">Den derzeitigen Suchbegriffen hinzufügen</label>
+			<label index="form.atATime">gleichzeitig</label>
+			<label index="form.extResume">Erweiterte Vorschau</label>
+			<label index="form.freeIndexUid">Kategorie</label>
+			<label index="form.fromSection">Aus dem Bereich</label>
+			<label index="form.legend">Suchformular</label>
+			<label index="form.linkToAdvancedSearch">Erweiterte Suche</label>
+			<label index="form.linkToRegularSearch">Normale Suche</label>
+			<label index="form.match">Vergleich</label>
+			<label index="form.orderBy">Sortieren nach</label>
+			<label index="form.searchFor">Suchen nach</label>
+			<label index="form.searchIn">Suche in</label>
+			<label index="form.style">Ansicht</label>
+			<label index="form.submit">Suchen</label>
+			<label index="groupBy.flat">Flache Liste</label>
+			<label index="groupBy.sections">Bereichshierarchie</label>
+			<label index="indexingConfigurationHeader.0">Web-Seiten</label>
+			<label index="indexingConfigurationHeader.-1">gemischte Kategorien</label>
+			<label index="indexingConfigurations.0">Seiten</label>
+			<label index="indexingConfigurations.-1">Alle, gemischt</label>
+			<label index="indexingConfigurations.-2">Alle, kategorisiert</label>
+			<label index="languageUids.0">Standard</label>
+			<label index="languageUids.-1">Alle Sprachen</label>
+			<label index="localizedOperandAnd">UND</label>
+			<label index="localizedOperandNot">NICHT</label>
+			<label index="localizedOperandOr">ODER</label>
+			<label index="mediaTypes.0">Interne Seiten</label>
+			<label index="mediaTypes.-1">Alle Medien</label>
+			<label index="mediaTypes.-2">Alle externen Seiten</label>
+			<label index="result.created">Erstellt:</label>
+			<label index="result.inNsection">in %s Bereich:</label>
+			<label index="result.inNsections">in %s Bereichen:</label>
+			<label index="result.inSection">im Bereich</label>
+			<label index="result.memberGroups">Erfordert Mitgliedschaft der Gruppe(n) Nummer %s</label>
+			<label index="result.modified">Geändert:</label>
+			<label index="result.noResult">Keine Ergebnisse gefunden.</label>
+			<label index="result.noResume">Hinweis: Der Inhalt dieser Seite entspricht nicht exakt der Suche. Die Seitenvorschau wird nicht angezeigt.</label>
+			<label index="result.otherMatching">Andere passende Seiten im selben Dokument:</label>
+			<label index="result.otherPageAsWell">Information: Eine andere Seite wurde auch indexiert... Diese wurde vermutlich mit einer anderen oder keiner Benutzergruppe indexiert.</label>
+			<label index="result.page">Seite</label>
+			<label index="result.pages">Seiten</label>
+			<label index="result.path">Pfad:</label>
+			<label index="result.ratingMatches">Treffer</label>
+			<label index="result.size">Größe:</label>
+			<label index="result.unnamedSection">Andere</label>
+			<label index="rules.headline">Regeln</label>
+			<label index="rules.text">Nur Wörter mit 2 oder mehr Zeichen werden akzeptiert.&lt;br /&gt;
+Maximal 200 Zeichen insgesamt.&lt;br /&gt;
+Leerzeichen werden zur Trennung von Worten verwendet, "" kann für die Suche nach ganzen Zeichenfolgen benutzt werden (keine Indexsuche).&lt;br /&gt;
+UND, ODER und NICHT sind Suchoperatoren, die den standardmäßigen Operator überschreiben.&lt;br /&gt;
++/|/- entspricht UND, ODER und NICHT als Operatoren.&lt;br /&gt;
+Alle Suchwörter werden zu Kleinschreibung konvertiert.
+</label>
+			<label index="searchFor">Suche nach</label>
+			<label index="searchFor.and">und</label>
+			<label index="searchFor.andnot">aber nicht</label>
+			<label index="searchFor.or">oder</label>
+			<label index="searchTypes.0">Ganzes Wort</label>
+			<label index="searchTypes.1">Wortteil</label>
+			<label index="searchTypes.10">Aussprache</label>
+			<label index="searchTypes.2">Wortanfang</label>
+			<label index="searchTypes.20">Ganzer Satz</label>
+			<label index="searchTypes.3">Wortende</label>
+			<label index="sections.0">Ganze Website</label>
+			<label index="sections.-1">Nur diese Seite</label>
+			<label index="sections.-2">Homepage + Ebene 1</label>
+			<label index="sections.-3">Ebene 2 und tiefer</label>
+			<label index="sections.rootLevel1">Ebene 1:</label>
+			<label index="sections.rootLevel1All">Alle Seiten auf Ebene 1</label>
+			<label index="sections.rootLevel2">- Ebene 2:</label>
+			<label index="sections.rootLevel2All">- Alle Seiten auf Ebene 2</label>
+			<label index="sortOrders.ascending">Geringste zuerst</label>
+			<label index="sortOrders.crdate">Erstelldatum</label>
+			<label index="sortOrders.descending">Höchste zuerst</label>
+			<label index="sortOrders.mtime">Letzte Änderung</label>
+			<label index="sortOrders.rank_count">Anzahl der Worte</label>
+			<label index="sortOrders.rank_first">Nähe zum Dokumentanfang</label>
+			<label index="sortOrders.rank_flag">Trefferquote/Vorkommen</label>
+			<label index="sortOrders.rank_freq">Vorkommen</label>
+			<label index="sortOrders.title">Dokumententitel</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,60 @@
+{namespace vh=In2code\Powermail\ViewHelpers}
+
+<f:if condition="{email}">
+	<f:if condition="{issent}">
+		<f:then>
+			<div class="typo3-message message-ok powermail-message">
+				<div class="header-container">
+					<h4 class="message-header">
+						<f:translate key="BackendCheckEmailTitle" />
+					</h4>
+				</div>
+				<div class="message-body">
+					<p>
+						<f:translate key="BackendCheckEmailCorrect" />
+					</p>
+				</div>
+			</div>
+		</f:then>
+		<f:else>
+			<div class="typo3-message message-error powermail-message">
+				<h4 class="message-header">
+					<f:translate key="BackendCheckEmailTitle" />
+				</h4>
+				<div class="message-body">
+					<p>
+						<f:translate key="BackendCheckEmailFailed" />
+					</p>
+				</div>
+			</div>
+		</f:else>
+	</f:if>
+</f:if>
+
+<div class="typo3-message message-notice powermail-message">
+	<div class="message-body powermail-padding-bottom powermail_email">
+		<f:form
+				class="form-horizontal"
+				action="checkBe">
+			<div class="form-group">
+				<label for="powermail_email" class="col-sm-2 control-label">
+					<f:translate key="BackendEmailFormReceiver" />
+				</label>
+				<div class="col-sm-10">
+					<f:form.textfield
+							name="email"
+							placeholder="your@email.org"
+							value=""
+							id="powermail_email"
+							class="form-control" />
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-10 col-sm-offset-2">
+					<f:form.submit value="Send Mail Now" class="btn btn-primary" />
+				</div>
+			</div>
+		</f:form>
+	</div>
+</div>

@@ -1,0 +1,70 @@
+
+renderingOptions:
+  submitButtonLabel: Absenden
+type: Form
+identifier: kontakt
+label: Kontakt
+prototypeName: standard
+finishers:
+  -
+    options:
+      message: 'Vielen Dank für Ihre Anfrage. Sie werden umgehend von uns kontaktiert. Ihr SturzZentrum Schweiz'
+    identifier: Confirmation
+  -
+    options:
+      subject: 'Anfrage von sturzzentrum.ch'
+      recipientAddress: info@sturzzentrum.ch
+      recipientName: 'SturzZentrum Schweiz'
+      senderAddress: '{text-2}'
+      senderName: '{text-1}'
+      replyToAddress: info@sturzzentrum.ch
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: false
+      translation:
+        language: ''
+    identifier: EmailToReceiver
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: ''
+      nextButtonLabel: Überprüfen
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: Name
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          elementDescription: ''
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Email
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+          elementDescription: ''
+        validators:
+          -
+            identifier: NotEmpty
+          -
+            identifier: EmailAddress
+      -
+        defaultValue: ''
+        type: Textarea
+        identifier: textarea-1
+        label: Anfrage
+        properties:
+          fluidAdditionalAttributes:
+            placeholder: 'Bitte kontaktieren Sie mich.'

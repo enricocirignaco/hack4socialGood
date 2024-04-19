@@ -1,0 +1,3 @@
+<?php
+{"szs":{"base":"https:\/\/www.sturzzentrum.ch","baseVariants":[],"errorHandling":[],"languages":[{"title":"de","enabled":true,"base":"\/","typo3Language":"de","locale":"de_CH","iso-639-1":"de","navigationTitle":"","hreflang":"de","direction":"","flag":"ch","languageId":"0"}],"rootPageId":1,"routes":[{"route":"robots.txt","type":"staticText","content":"User-agent: *\r\nDisallow: \/typo3\/\r\nDisallow: \/typo3_src\/\r\nAllow: \/typo3\/sysext\/frontend\/Resources\/Public\/*\r\n"}]}}
+#

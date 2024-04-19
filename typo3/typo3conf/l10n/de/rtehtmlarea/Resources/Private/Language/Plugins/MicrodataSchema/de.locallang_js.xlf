@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-11-10T02:40:25Z" product-name="rtehtmlarea">
+		<header/>
+		<body>
+			<trans-unit id="currentItemType" approved="yes">
+				<source>Current item type</source>
+				<target state="translated">Aktueller Elementtyp</target>
+			</trans-unit>
+			<trans-unit id="itemprop" approved="yes">
+				<source>Item property</source>
+				<target state="translated">Elementeigenschaft</target>
+			</trans-unit>
+			<trans-unit id="itemscope" approved="yes">
+				<source>Item scope</source>
+				<target state="translated">Elementbereich</target>
+			</trans-unit>
+			<trans-unit id="itemtype" approved="yes">
+				<source>Item type</source>
+				<target state="translated">Elementtyp</target>
+			</trans-unit>
+			<trans-unit id="microdata" approved="yes">
+				<source>Microdata</source>
+				<target state="translated">Microdata</target>
+			</trans-unit>
+			<trans-unit id="ShowMicrodata-Tooltip" approved="yes">
+				<source>Show microdata</source>
+				<target state="translated">Microdata zeigen</target>
+				<note>Microdata ist eine WHATWG HTML-Spezifikation, um semantische Elemente in Inhalt zu verschachteln.</note>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

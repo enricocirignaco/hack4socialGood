@@ -1,0 +1,3 @@
+.. |developer_new_flexformfield|      image:: ../../Images/developer_new_flexformfield.png
+.. :align: left
+.. :name: developer_new_flexformfield

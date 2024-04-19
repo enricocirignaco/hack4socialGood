@@ -1,0 +1,65 @@
+a:35:{s:20:"username.description";a:1:{i:0;a:2:{s:6:"source";s:64:"Enter the username of the website user. This is needed to login.";s:6:"target";s:64:"Enter the username of the website user. This is needed to login.";}}s:15:"username.syntax";a:1:{i:0;a:2:{s:6:"source";s:211:"A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.";s:6:"target";s:211:"A username is required and must be in lowercase without spaces in it. The username must be unique among other usernames in the page where it's saved. If it is not unique a number will be prepended automatically.";}}s:17:"_username.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:139:"Creating Frontend Users and Groups | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/";s:6:"target";s:139:"Creating Frontend Users and Groups | https://docs.typo3.org/typo3cms/GettingStartedTutorial/EditAndCreatePagesAndContent/CreateUsersGroups/";}}s:20:"password.description";a:1:{i:0;a:2:{s:6:"source";s:67:"Enter the password for the username above. This is needed to login.";s:6:"target";s:67:"Enter the password for the username above. This is needed to login.";}}s:15:"password.syntax";a:1:{i:0;a:2:{s:6:"source";s:69:"A password is required and must be in lowercase without spaces in it.";s:6:"target";s:69:"A password is required and must be in lowercase without spaces in it.";}}s:21:"usergroup.description";a:1:{i:0;a:2:{s:6:"source";s:37:"Select a user group for the username.";s:6:"target";s:37:"Select a user group for the username.";}}s:17:"usergroup.details";a:1:{i:0;a:2:{s:6:"source";s:213:"When a user logs in he is able to view all content which is access restricted to the user <em>group(s)</em> the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.";s:6:"target";s:213:"When a user logs in he is able to view all content which is access restricted to the user <em>group(s)</em> the user is a member of. Therefore the user login primarily makes sense with regard to the member groups.";}}s:24:"lockToDomain.description";a:1:{i:0;a:2:{s:6:"source";s:143:"Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.";s:6:"target";s:143:"Enter the host name from which the user is forced to login. NOTICE: this is not a security feature and can be circumvented by faking HTTP_HOST.";}}s:20:"lockToDomain.details";a:1:{i:0;a:2:{s:6:"source";s:138:"A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.";s:6:"target";s:138:"A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.";}}s:19:"lockToDomain.syntax";a:1:{i:0;a:2:{s:6:"source";s:70:"Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"";s:6:"target";s:70:"Either a domain name, "www.typo3.org" or an IP address, "10.34.222.83"";}}s:21:"_lockToDomain.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:22:"fe_groups:lockToDomain";s:6:"target";s:22:"fe_groups:lockToDomain";}}s:16:"name.description";a:1:{i:0;a:2:{s:6:"source";s:60:"Enter the regular name of the user, both first- and surname.";s:6:"target";s:60:"Enter the regular name of the user, both first- and surname.";}}s:19:"address.description";a:1:{i:0;a:2:{s:6:"source";s:37:"Enter the street address of the user.";s:6:"target";s:37:"Enter the street address of the user.";}}s:15:"www.description";a:1:{i:0;a:2:{s:6:"source";s:22:"Enter the homepage URL";s:6:"target";s:22:"Enter the homepage URL";}}s:17:"title.description";a:1:{i:0;a:2:{s:6:"source";s:52:"Enter the job title, eg. 'Director' or 'Accountant'.";s:6:"target";s:52:"Enter the job title, eg. 'Director' or 'Accountant'.";}}s:19:"company.description";a:1:{i:0;a:2:{s:6:"source";s:60:"Enter the name of the company in which the user is employed.";s:6:"target";s:60:"Enter the name of the company in which the user is employed.";}}s:17:"image.description";a:1:{i:0;a:2:{s:6:"source";s:27:"Insert a photo of the user.";s:6:"target";s:27:"Insert a photo of the user.";}}s:19:"disable.description";a:1:{i:0;a:2:{s:6:"source";s:62:"This option will temporarily disable the user from logging in.";s:6:"target";s:62:"This option will temporarily disable the user from logging in.";}}s:16:"_disable.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:35:"fe_users:starttime,fe_users:endtime";s:6:"target";s:35:"fe_users:starttime,fe_users:endtime";}}s:21:"starttime.description";a:1:{i:0;a:2:{s:6:"source";s:48:"Enter the date from which the account is active.";s:6:"target";s:48:"Enter the date from which the account is active.";}}s:16:"starttime.syntax";a:1:{i:0;a:2:{s:6:"source";s:299:"The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
+The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.";s:6:"target";s:299:"The syntax is dd-mm-yy, but you can just enter a "d" in the field to insert todays date. Or "d+10" to insert the date 10 days from now etc.
+The field will re-format any input to fit the format it understands so you can just experiment and you will be able to clearly see how dates should be entered.";}}s:18:"_starttime.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:33:"fe_users:disable,fe_users:endtime";s:6:"target";s:33:"fe_users:disable,fe_users:endtime";}}s:19:"endtime.description";a:1:{i:0;a:2:{s:6:"source";s:50:"Enter the date from which the account is disabled.";s:6:"target";s:50:"Enter the date from which the account is disabled.";}}s:14:"endtime.syntax";a:1:{i:0;a:2:{s:6:"source";s:11:"See "Start"";s:6:"target";s:11:"See "Start"";}}s:16:"_endtime.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:35:"fe_users:disable,fe_users:starttime";s:6:"target";s:35:"fe_users:disable,fe_users:starttime";}}s:21:"lastlogin.description";a:1:{i:0;a:2:{s:6:"source";s:45:"This field shows the user's last log in date.";s:6:"target";s:45:"This field shows the user's last log in date.";}}s:20:"TSconfig.description";a:1:{i:0;a:2:{s:6:"source";s:50:"Enter additional TSconfig for the user (advanced).";s:6:"target";s:50:"Enter additional TSconfig for the user (advanced).";}}s:16:"TSconfig.details";a:1:{i:0;a:2:{s:6:"source";s:2124:"This field allows you to enter TypoScript style configuration values for the user. Currently there are no system defined keys. If there ever will be, they will be described in detail in the administrative documentation.
+
+The primary use of this field (as well as the 'sister'-field in the Website usergroup table) is for custom purposes. In this case, you should use the root-key "user" for your customly defined values. Thus you don't risk any future system keys to interfere with your configuration.
+
+You access the values of the configuration from your frontend plugins by calling the function <em>$GLOBALS["TSFE"]->fe_user->getUserTSconf()</em> which will return an array with the valuetree in it.
+
+<b>Warning:</b> You should use Website user/group TSconfig in your PHP-scripts ONLY if your resulting content is NOT being cached! So call it from TypoScript USER_INT cObjects or disable caching from your PHP-code by calling <em>$GLOBALS["TSFE"]->set_no_cache();</em>
+
+<b>TSconfig from Website usergroups:</b>
+Notice that the configuration from the field TSconfig in the member groups of the user is accumulated and prepended to the TSconfig of the user before it's parsed. This means for instance that a key defined in the TSconfig of the user (this field) will override the same key defined in the last (bottom) usergroup in the list which will again override the same key defined in the first (top) usergroup in the list.
+
+<b>Example:</b>
+Let's imagine you want to define for a user that his name is printed in the bottom of the webpages when he is logged in. First of all you must write a PHP-function and insert the result from it as a USER_INT cObject in the bottom of the page. But your function needs to know, whether or not this user is configured to have his name printed. So you decide to use a custom TSconfig key, 'user.printUserName':
+
+<em>In the TSconfig field of the user or usergroup:</em>
+
+user.printUserName = 1
+
+
+<em>In your PHP-function:</em>
+
+$userTSConfig = $GLOBALS["TSFE"]->fe_user->getUserTSconf();
+if ($userTSConfig["user."]["printUserName"]) {
+return $GLOBALS["TSFE"]->fe_user->user["name"];
+}";s:6:"target";s:2124:"This field allows you to enter TypoScript style configuration values for the user. Currently there are no system defined keys. If there ever will be, they will be described in detail in the administrative documentation.
+
+The primary use of this field (as well as the 'sister'-field in the Website usergroup table) is for custom purposes. In this case, you should use the root-key "user" for your customly defined values. Thus you don't risk any future system keys to interfere with your configuration.
+
+You access the values of the configuration from your frontend plugins by calling the function <em>$GLOBALS["TSFE"]->fe_user->getUserTSconf()</em> which will return an array with the valuetree in it.
+
+<b>Warning:</b> You should use Website user/group TSconfig in your PHP-scripts ONLY if your resulting content is NOT being cached! So call it from TypoScript USER_INT cObjects or disable caching from your PHP-code by calling <em>$GLOBALS["TSFE"]->set_no_cache();</em>
+
+<b>TSconfig from Website usergroups:</b>
+Notice that the configuration from the field TSconfig in the member groups of the user is accumulated and prepended to the TSconfig of the user before it's parsed. This means for instance that a key defined in the TSconfig of the user (this field) will override the same key defined in the last (bottom) usergroup in the list which will again override the same key defined in the first (top) usergroup in the list.
+
+<b>Example:</b>
+Let's imagine you want to define for a user that his name is printed in the bottom of the webpages when he is logged in. First of all you must write a PHP-function and insert the result from it as a USER_INT cObject in the bottom of the page. But your function needs to know, whether or not this user is configured to have his name printed. So you decide to use a custom TSconfig key, 'user.printUserName':
+
+<em>In the TSconfig field of the user or usergroup:</em>
+
+user.printUserName = 1
+
+
+<em>In your PHP-function:</em>
+
+$userTSConfig = $GLOBALS["TSFE"]->fe_user->getUserTSconf();
+if ($userTSConfig["user."]["printUserName"]) {
+return $GLOBALS["TSFE"]->fe_user->user["name"];
+}";}}s:15:"TSconfig.syntax";a:1:{i:0;a:2:{s:6:"source";s:52:"TypoScript syntax, without conditions and constants.";s:6:"target";s:52:"TypoScript syntax, without conditions and constants.";}}s:17:"_TSconfig.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:165:"TSconfig for TSFE | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TCEmain/
+pages:TSconfig,
+fe_groups:TSconfig,
+be_users:TSconfig,
+be_groups:TSconfig";s:6:"target";s:165:"TSconfig for TSFE | https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TCEmain/
+pages:TSconfig,
+fe_groups:TSconfig,
+be_users:TSconfig,
+be_groups:TSconfig";}}s:12:".description";a:1:{i:0;a:2:{s:6:"source";s:21:"A website login user.";s:6:"target";s:21:"A website login user.";}}s:8:".details";a:1:{i:0;a:2:{s:6:"source";s:123:"These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.";s:6:"target";s:123:"These are users with a username and password who are allowed specific access to otherwise restricted areas on your website.";}}s:9:"_.seeAlso";a:1:{i:0;a:2:{s:6:"source";s:18:"fe_groups
+be_users";s:6:"target";s:18:"fe_groups
+be_users";}}s:7:"_.image";a:1:{i:0;a:2:{s:6:"source";s:123:"EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,";s:6:"target";s:123:"EXT:frontend/Resources/Public/Images/cshimages/feusers_1.png,
+EXT:frontend/Resources/Public/Images/cshimages/feusers_2.png,";}}s:12:".image_descr";a:1:{i:0;a:2:{s:6:"source";s:123:"Part of the form for editing a frontend user.
+A typical login box (standard) on the website where frontend users can login.";s:6:"target";s:123:"Part of the form for editing a frontend user.
+A typical login box (standard) on the website where frontend users can login.";}}}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-11-10T00:50:09Z" product-name="dbal">
+		<header/>
+		<body>
+			<trans-unit id="Cached_info" approved="yes">
+				<source>Cached info</source>
+				<target state="translated">Gecachte Informationen</target>
+			</trans-unit>
+			<trans-unit id="Debug_log" approved="yes">
+				<source>Debug log</source>
+				<target state="translated">Debug-Protokoll</target>
+			</trans-unit>
+			<trans-unit id="SQL_check" approved="yes">
+				<source>SQL Check</source>
+				<target state="translated">SQL-Prüfung</target>
+			</trans-unit>
+			<trans-unit id="title" approved="yes">
+				<source>DBAL Analysis Module</source>
+				<target state="translated">Modul DBAL-Analyse</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

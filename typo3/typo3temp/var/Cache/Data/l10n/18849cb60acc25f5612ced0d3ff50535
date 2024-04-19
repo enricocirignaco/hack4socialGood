@@ -1,0 +1,35 @@
+a:4:{s:19:"pages_sort.alttitle";a:1:{i:0;a:2:{s:6:"source";s:10:"Sort Pages";s:6:"target";s:10:"Sort Pages";}}s:22:"pages_sort.description";a:1:{i:0;a:2:{s:6:"source";s:143:"Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.";s:6:"target";s:143:"Enables you to sort pages alphabetically by title, sub-title or by creation time etc. You can also reverse the order of pages in the page tree.";}}s:18:"pages_sort.details";a:1:{i:0;a:2:{s:6:"source";s:713:"Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+<b>Page title</b>
+Will sort pages by their page title.
+
+<b>Subtitle</b>
+Will sort page by their Subtitle field.
+
+<b>Change-time</b>
+Will sort pages by the date they were last changed.
+
+<b>Create-time</b>
+Will sort pages by their creation date.
+
+<b>Reverse current order</b>
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.";s:6:"target";s:713:"Pages in the page tree are always ordered manually. It is possible to move pages up and down etc. But this wizard gives you a quick way to change the manual order of sub-pages.
+
+Simply click one of the links in the bottom of the wizard screen:
+
+<b>Page title</b>
+Will sort pages by their page title.
+
+<b>Subtitle</b>
+Will sort page by their Subtitle field.
+
+<b>Change-time</b>
+Will sort pages by the date they were last changed.
+
+<b>Create-time</b>
+Will sort pages by their creation date.
+
+<b>Reverse current order</b>
+Click this to reverse the current order. For example, if you want to sort pages alphabetically but in descending order you simply sort by title first and then reverse the order by clicking this.";}}s:17:"_pages_sort.image";a:1:{i:0;a:2:{s:6:"source";s:53:"EXT:backend/Resources/Public/Images/Csh/PagesSort.png";s:6:"target";s:53:"EXT:backend/Resources/Public/Images/Csh/PagesSort.png";}}}

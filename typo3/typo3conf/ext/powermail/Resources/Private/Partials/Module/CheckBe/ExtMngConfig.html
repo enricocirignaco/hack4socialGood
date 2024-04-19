@@ -1,0 +1,30 @@
+{namespace vh=In2code\Powermail\ViewHelpers}
+
+<f:if condition="{vh:Be.ExtMngConfig()}">
+	<f:then>
+		<div class="alert alert-success">
+			<div class="header-container">
+				<h4 class="message-header">
+					<f:translate key="BackendCheckExtMngConfigTitle" />
+				</h4>
+			</div>
+			<div class="message-body">
+				<p>
+					<f:translate key="BackendCheckExtMngConfigCorrect" />
+				</p>
+			</div>
+		</div>
+	</f:then>
+	<f:else>
+		<div class="alert alert-danger">
+			<h4 class="message-header">
+				<f:translate key="BackendCheckExtMngConfigTitle" />
+			</h4>
+			<div class="message-body">
+				<p>
+					<f:translate key="BackendCheckExtMngConfigFailed" />
+				</p>
+			</div>
+		</div>
+	</f:else>
+</f:if>

@@ -1,0 +1,32 @@
+{namespace vh=In2code\Powermail\ViewHelpers}
+
+<f:if condition="{settings.staticTemplate}">
+	<f:then>
+		<div class="alert alert-success">
+			<div class="header-container">
+				<h4 class="message-header">
+					<f:translate key="BackendCheckStaticTemplateTitle" />
+				</h4>
+			</div>
+			<div class="message-body">
+				<p>
+					<f:translate key="BackendCheckStaticTemplateCorrect" />
+					<f:be.pagePath /> ({pid})
+				</p>
+			</div>
+		</div>
+	</f:then>
+	<f:else>
+		<div class="alert alert-danger">
+			<h4 class="message-header">
+				<f:translate key="BackendCheckStaticTemplateTitle" />
+			</h4>
+			<div class="message-body">
+				<p>
+					<f:translate key="BackendCheckStaticTemplateFailed" />
+					<f:be.pagePath /> ({pid})
+				</p>
+			</div>
+		</div>
+	</f:else>
+</f:if>

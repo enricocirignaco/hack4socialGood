@@ -1,0 +1,119 @@
+
+renderingOptions:
+  submitButtonLabel: Absenden
+type: Form
+identifier: fES-I-Fragebogen
+label: FES-I-Fragebogen
+prototypeName: standard
+finishers:
+  -
+    options:
+      message: 'Sie haben den Fragebogen erfolgreich ausgefüllt. Sie erhalten in Kürze eine Email mit Ihrer Auswertung.'
+    identifier: Confirmation
+  -
+    options:
+      subject: 'FES-I Fragebogen'
+      recipientAddress: friederike.schulte@sturzzentrum.ch
+      recipientName: 'SturzZentrum Schweiz'
+      senderAddress: info@sturzzentrum.ch
+      senderName: '{text-1}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: true
+      translation:
+        language: default
+    identifier: EmailToReceiver
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: ''
+      nextButtonLabel: ''
+    type: Page
+    identifier: page-1
+    label: FES-I
+    renderables:
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-2
+        label: '1. Sich an- oder ausziehen'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-4
+        label: '2. Ein Bad nehmen oder duschen'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-6
+        label: '3. Von einem Stuhl aufstehen oder sich hinsetzen'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-3
+        label: '4. Eine Treppe hinauf- oder hinuntergehen'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-5
+        label: '5. Etwas erreichen, was sich oberhalb des Kopfes oder auf dem  Boden befindet'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+          elementDescription: ''
+        type: SingleSelect
+        identifier: singleselect-1
+        label: '6. Eine Steigung hinauf- oder hinuntergehen'
+        defaultValue: '1'
+      -
+        properties:
+          options:
+            1: 'keinerlei Bedenken'
+            2: 'einige Bedenken'
+            3: 'ziemliche Bedenken'
+            4: 'enorme Bedenken'
+        type: SingleSelect
+        identifier: singleselect-7
+        label: '7.   Eine Veranstaltung besuchen (z.B. ein Familientreffen,  eine Vereinsversammlung oder einen Gottesdienst)'
+        defaultValue: '1'
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'E-Mail für Ergebnis'

@@ -1,0 +1,70 @@
+
+renderingOptions:
+  submitButtonLabel: 'Bitte um Rückruf'
+type: Form
+identifier: studieTelefonrckruf
+label: 'Studie Telefonrückruf'
+prototypeName: standard
+finishers:
+  -
+    options:
+      subject: '{text-1}'
+      recipientAddress: friederike.schulte@sturzzentrum.ch
+      recipientName: 'Friederike Schulte'
+      senderAddress: info@sturzzentrum.ch
+      senderName: '{text-1}'
+      replyToAddress: ''
+      carbonCopyAddress: ''
+      blindCarbonCopyAddress: ''
+      format: html
+      attachUploads: false
+      translation:
+        language: default
+    identifier: EmailToReceiver
+  -
+    options:
+      pageUid: '561'
+      additionalParameters: ''
+    identifier: Redirect
+renderables:
+  -
+    renderingOptions:
+      previousButtonLabel: 'Previous step'
+      nextButtonLabel: 'Next step'
+    type: Page
+    identifier: page-1
+    label: ''
+    renderables:
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-1
+        label: 'Name, Vorname'
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        defaultValue: ''
+        type: Text
+        identifier: text-2
+        label: Telefonnummer
+        properties:
+          fluidAdditionalAttributes:
+            required: required
+        validators:
+          -
+            identifier: NotEmpty
+      -
+        properties:
+          options:
+            'Zürich Hönggerberg': 'Zürich Hönggerberg'
+            'Vitznau Luzern': 'Vitznau Luzern'
+            egal: egal
+          elementDescription: ''
+        type: RadioButton
+        identifier: radiobutton-1
+        label: 'Ich habe Interesse am Standort...'
+        defaultValue: egal

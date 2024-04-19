@@ -1,305 +1,231 @@
-html,
-body,
-div,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-img {
+html, body, div, p, h1, h2, h3, h4, h5, img {
     border: none;
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     color: #222;
-    font-family: Arial, Helvetica, FreeSans, sans-serif;
-    font-size: 18px;
-    /* war 13 */
+    font-family:Arial, Helvetica, FreeSans, sans-serif;
+    font-size:18px; /* war 13 */
     line-height: 1.3em;
     background: #fff url(img/hg.jpg) left top repeat-x;
-}
-
-@media (max-width: 479px) {
-    body {
-        background: none;
-    }
-}
-
-/* Fonts Formatierung */
-
-
-
-hr {
-    border: 0 dotted #ccc;
-    border-bottom-width: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    clear: both;
-}
-
-p {
-    font-size: 18px;
-    /*line-height: 20px*/
-    ;
-    margin-bottom: 15px;
-}
-
-/* font-size war 13 */
-h1 {
-    margin-bottom: 10px;
-    font-size: 24px;
-}
-
-h2 {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    font-size: 18px;
-}
-
-#con-right h2 {
-    margin-bottom: 0;
-}
-
-#con-right p {
-    margin-bottom: 5px;
-}
-
-a:link {
-    color: #FC8702;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* links are orange */
-a:hover {
-    color: #FC8702;
-    font-weight: bold;
-}
-
-a:visited {
-    color: #FC8702;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* visited link */
-a:active {
-    color: #FC8702;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* hochgestellt und tiefgestellt gleicher Zeilenabstand */
-sup,
-sub {
-    line-height: 0px;
-}
-
-#content ul li {
-    margin: 6px 0 0 2px;
-    padding: 0 0 0 14px;
-}
-
-/* Layout */
-/* Basic Layout */
-
-#center {
-    max-width: 964px;
-    /*FSc 4.12.22*/
-    margin: 0 auto;
-    position: relative;
+  }
+  @media (max-width: 479px) {
+  body{
+    background: none;
+  }
+  }
+  
+  /* Fonts Formatierung */
+  
+  
+  
+  hr { border:0 dotted #ccc; border-bottom-width:2px; margin-top:20px;  margin-bottom:20px; clear:both; }
+  p {font-size: 18px;/*line-height: 20px*/;margin-bottom: 15px;} /* font-size war 13 */
+  h1 {margin-bottom:10px;font-size:24px;}
+  h2 {margin-bottom:10px;font-size:20px;}
+  h3 {margin-bottom:10px;font-size:18px;}
+  
+  #con-right h2 {margin-bottom:0;}
+  #con-right p {margin-bottom:5px;}
+  
+  a:link {color: #FC8702;text-decoration: none;font-weight:bold;} /* links are orange */
+  a:hover {color: #FC8702;font-weight:bold;}
+  a:visited {color: #FC8702;text-decoration: none;font-weight:bold;} /* visited link */
+  a:active {color: #FC8702;text-decoration: none;font-weight:bold;}
+  
+  /* hochgestellt und tiefgestellt gleicher Zeilenabstand */
+  sup, sub {
+      line-height:0px;
+  }
+  
+  #content ul li {
+    margin:6px 0 0 2px;
+    padding:0 0 0 14px;
+  }
+  
+  /* Layout */
+  /* Basic Layout */
+  
+  #center {
+    max-width:964px; /*FSc 4.12.22*/
+    margin:0 auto;
+    position:relative;
     /*min-height:320px;  war 380 / war 500 */
-
-}
-
-/*.fullscreen{
+    
+  }
+  /*.fullscreen{
    box-shadow: 0 0 0 100vmax grey;
    clip-path: inset(0 -100vmax); 
   }*/
-
-#head {
+  
+  #head {
     /*position:absolute;
     top:0;
     left:12px;
     width:940px;*/
     /*height: 400px; Notlösung*/
-}
-
-#navigation {
+  }
+  
+  #navigation {
     /*position:absolute;
     top:94px;
     left:12px;
     width:940px;
     overflow: hidden;*/
     height: 40px;
-    z-index: 100;
-}
-
-#headerbild {
+    z-index:100;
+  }
+  
+  #headerbild {
     /*position:absolute;
     top:144px;
     left:22px;
     width:920px;
     height:165px;*/
-    z-index: 1;
+    z-index:1;
     overflow: hidden;
-}
-
-@media (max-width: 479px) {
-    #headerbild {
-        width: 100%;
-        height: auto;
-    }
-}
-
-#headerbild img {
-    width: 100%;
-}
-
-#content {
+  }
+  @media (max-width: 479px) {
+  #headerbild{
+    width:100%;
+    height:auto;
+  }
+  }
+  
+  #headerbild img{
+   width: 100%;
+  }
+  
+  #content {
     /*position:absolute;
     top:400px;  war 470 
     left:0;*/
     /*width:940px;
     padding: 12px;*/
     margin-top: 100px;
-}
-
-#footer {
-    float: left;
+  }
+  
+  #footer {
+    float:left;
     width: 100%;
-    margin-top: 20px;
-    border-top: 2px solid #ccc;
-    padding: 10px 0 20px 0;
-}
-
-
-/* Navigation */
-/* Ebene Eins */
-
-ul.nav-ebene-eins {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    width: 964px;
-}
-
-ul.nav-ebene-eins li {
-    padding: 0;
-    margin: 0;
-    display: inline;
-    float: left;
-    position: relative;
-}
-
-ul.nav-ebene-eins li a {
-    display: block;
-    width: 160px;
-    /*156px;*/
-    font-size: 15px;
-    text-align: center;
-    font-weight: normal;
+    margin-top:20px;
+    border-top:2px solid #ccc;
+    padding:10px 0 20px 0;
+  }
+  
+  
+  /* Navigation */
+  /* Ebene Eins */
+  
+  ul.nav-ebene-eins {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    width:100%;
+  }
+  
+  ul.nav-ebene-eins li {
+    padding:0;
+    margin:0;
+    display:inline;
+    float:left;
+    position:relative;
+  }
+  
+  ul.nav-ebene-eins li a {
+    display:block;
+    width:160px;/*156px;*/
+    font-size:15px;
+    text-align:center;
+        font-weight: normal;
     line-height: 40px;
-    background: transparent url(img/navi-hg.jpg) center center repeat-x;
-    color: #fff;
-    border-right: 1px solid #fff;
-}
-
-ul.nav-ebene-eins li a:hover,
-ul.nav-ebene-eins li.pretty-hover a {
+    background:transparent url(img/navi-hg.jpg) center center repeat-x;
+    color:#fff;
+    border-right:1px solid #fff;  
+  }
+  
+  ul.nav-ebene-eins li a:hover, ul.nav-ebene-eins li.pretty-hover a {
     /*background:#fff;
     color:#333;*/
-    font-weight: normal;
+        font-weight: normal;
     text-decoration: underline;
-}
-
-/* Navigation */
-/* Ebene Zwei */
-
-ul.nav-ebene-zwei {
-    padding: 0;
-    margin: 0;
-}
-
-ul.nav-ebene-zwei li {
-    clear: left;
-}
-
-ul.nav-ebene-zwei li a {
-    border-right: none;
-    text-align: center;
-    font-weight: normal;
-    color: #fff !Important;
-    background: #273540 !Important;
+  }
+  
+  /* Navigation */
+  /* Ebene Zwei */
+  
+  ul.nav-ebene-zwei {
+    padding:0;
+    margin:0;
+  }
+  ul.nav-ebene-zwei li {
+    clear:left;
+  }
+  
+  ul.nav-ebene-zwei li a {
+    border-right:none;
+    text-align:center;
+        font-weight: normal;
+    color:#fff !Important;
+    background:#273540 !Important;
     text-decoration: none !Important;
-}
-
-ul.nav-ebene-zwei li a:hover {
-    background: #fff !Important;
-    color: #333 !Important;
+  }
+  ul.nav-ebene-zwei li a:hover {
+    background:#fff !Important; 
+    color:#333 !Important;
     text-decoration: none;
-    font-weight: normal;
+        font-weight: normal;
     box-sizing: border-box;
     border: 0.5px solid black !Important;
-}
-
-.code {
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-}
-
-/* Header Logo und Navigation */
-
-#logo {
+  }
+  
+  .code {width:1px;height:1px;overflow:hidden;}
+  
+  /* Header Logo und Navigation */
+  
+  #logo {
     /*position:absolute;
     top:13px;
     left:10px;*/
-    padding-top: 15px;
-}
-
-@media (max-width: 479px) {
-    #logo {
-        display: none;
-    }
-}
-
-#headernavi {
-    position: absolute;
-    right: 13px;
-    top: 10px;
-}
-
-#headernavi .menu-header {
-    color: #666;
-    font-size: 12px;
-}
-
-#headernavi .menu-header a {
-    color: #666;
-}
-
-/* Hamburger */
-@media (min-width: 480px) {
-    .hamburger {
-        display: none;
-    }
-}
-
-@media (max-width: 479px) {
-    #navigation {
-        display: none;
-    }
-}
-
-.hamburger {
+    padding-top: 15px;  
+  }
+  
+  @media (max-width: 479px) {
+  #logo{
+    display: none;
+  }
+  }
+  
+  #headernavi {
+    position:absolute;
+    right:13px;
+    top:10px;
+  }
+  
+  #headernavi .menu-header {
+    color:#666;
+    font-size:12px;
+  }
+  
+  #headernavi .menu-header a {
+    color:#666;
+  }
+  
+  /* Hamburger */
+  @media (min-width: 480px) {
+  .hamburger{
+    display: none;
+  }
+  }
+  @media (max-width: 479px) {
+  #navigation{
+    display: none;
+  }
+  }
+  
+  .hamburger{
     /*display: flex;
     flex-direction: row;*/
     align-items: center;
@@ -310,23 +236,22 @@ ul.nav-ebene-zwei li a:hover {
     color: #FFF;
     height: 50px;
     padding: 1em;
-}
-
-.nav-ebene-eins {
-    /* war .menu*/
+  }
+  
+  .nav-ebene-eins { /* war .menu*/
     display: flex;
     flex-direction: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.nav-ebene-eins>li {
+  }
+  
+  .nav-ebene-eins > li {
     margin: 0 1rem;
     overflow: hidden;
-}
-
-.menu-button-container {
+  }
+  
+  .menu-button-container {
     display: none;
     height: 100%;
     width: 30px;
@@ -334,15 +259,15 @@ ul.nav-ebene-zwei li a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#menu-toggle {
+  }
+  
+  #menu-toggle {
     display: none;
-}
-
-.menu-button,
-.menu-button::before,
-.menu-button::after {
+  }
+  
+  .menu-button,
+  .menu-button::before,
+  .menu-button::after {
     display: block;
     background-color: #fff;
     position: absolute;
@@ -350,341 +275,315 @@ ul.nav-ebene-zwei li a:hover {
     width: 30px;
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
-}
-
-.menu-button::before {
+  }
+  
+  .menu-button::before {
     content: '';
     margin-top: -8px;
-}
-
-.menu-button::after {
+  }
+  
+  .menu-button::after {
     content: '';
     margin-top: 8px;
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button::before {
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button {
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button {
     background: rgba(255, 255, 255, 0);
-}
-
-#menu-toggle:checked+.menu-button-container .menu-button::after {
+  }
+  
+  #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
-}
-
-@media (max-width: 700px) {
+  }
+  
+  @media (max-width: 700px) {
     .menu-button-container {
-        display: flex;
+      display: flex;
     }
-
-    .nav-ebene-eins {
-        /*war .menu */
-        /*position: absolute;*/
-        top: 0;
-        margin-top: 50px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
+    .nav-ebene-eins { /*war .menu */
+      /*position: absolute;*/
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
     }
-
-    #menu-toggle~.nav-ebene-eins li {
-        height: 0;
-        margin: 0;
-        padding: 0;
-        border: 0;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    #menu-toggle ~ .nav-ebene-eins li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-
-    #menu-toggle:checked~.nav-ebene-eins li {
-        border: 1px solid #333;
-        height: 2.5em;
-        padding: 0.5em;
-        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    #menu-toggle:checked ~ .nav-ebene-eins li {
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-
-    .nav-ebene-eins>li {
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0.5em 0;
-        width: 100%;
-        z-index: 2;
-        /* FSc damit über Headerbild */
-        color: white;
-        background-color: #222;
+    .nav-ebene-eins > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+    z-index:2; /* FSc damit über Headerbild */
+      color: white;
+      background-color: #222;
     }
-
-    ul.nav-ebene-eins>li a {
-        /*im mobile keinen Seitenstricht */
-        border-right: 0 !important;
-        background: none;
+  ul.nav-ebene-eins > li a{ /*im mobile keinen Seitenstricht */
+    border-right: 0 !important;
+    background: none;
+  }
+    .nav-ebene-eins > li:not(:last-child) {
+      border-bottom: 1px solid #444;
     }
-
-    .nav-ebene-eins>li:not(:last-child) {
-        border-bottom: 1px solid #444;
-    }
-}
-
-/*Ende HAmburger : https://alvarotrigo.com/blog/hamburger-menu-css/*/
-
-
-
-/* Content Bereich */
-
-#con-left-right {
+  }
+  /*Ende HAmburger : https://alvarotrigo.com/blog/hamburger-menu-css/*/
+  
+  
+  
+  /* Content Bereich */
+  
+  #con-left-right {
     /*width:920px; */
     margin: 10px;
     /*  padding-left:22px;*/
-
-}
-
-#con-left {
-    width: 66.666%;
-    /*640px;*/
-    float: left;
-}
-
-#con-right {
-    width: 28%;
-    /*240px*/
+    
+  }
+  
+  #con-left {
+    width:66.666%; /*640px;*/
+    float:left;
+  }
+  
+  #con-right {
+    width: 28%; /*240px*/
     padding-left: 5%;
-    float: left;
-}
-
-/* im Mobilemodus ist rechte Spalte unten*/
-@media (max-width: 700px) {
+    float:left;
+  }
+    /* im Mobilemodus ist rechte Spalte unten*/
+  @media (max-width: 700px) {
     #con-left {
-        width: 100%;
+      width:100%;
     }
-
     #con-right {
-        width: 100%;
-        padding-left: 0px;
+      width:100%;
+      padding-left:0px;
     }
-}
-
-
-/* Footer Bereich */
-
-#footer .menu-footer {
-    padding-left: 10px;
-    color: #666;
-    font-size: 12px;
-}
-
-#footer .menu-footer a {
-    color: #666;
-}
-
-#footer #copyright {
-    text-align: center;
-    font-size: 11px;
-    color: #666666;
-}
-
-#footer #copyright a {
-    font-size: 11px;
-    color: #666666;
-}
-
-.csc-textpic-intext-right {
+  }
+  
+  
+  /* Footer Bereich */
+  
+  #footer .menu-footer {
+    padding-left:10px;
+    color:#666;
+    font-size:12px;
+  }
+  
+  #footer .menu-footer a {
+    color:#666;
+  }
+  
+  #footer #copyright {
+    text-align:center;  
+    font-size:11px;
+    color:#666666;
+  }
+  #footer #copyright a {
+    font-size:11px;
+    color:#666666;
+  }
+  
+  .csc-textpic-intext-right{
     float: left;
-}
-
-/*versuch*/
-.ce-column {
+  }
+  /*versuch*/
+  .ce-column{
     float: none;
-}
-
-.image-caption {
+  }
+  .image-caption{
     padding-top: 5px;
     font-size: 12px;
     font-style: italic;
-    line-height: 100%
-}
-
-/* Kontaktformular  ALT */
-
-#mailform fieldset {
-    border: none;
-    padding: 10px 0 10px 0;
-    margin: 0;
-}
-
-#mailform label {
-    float: left;
-    width: 90px;
-    line-height: 25px;
-}
-
-#mailform .csc-mailform-field {
-    padding-bottom: 5px;
-}
-
-#mailform input,
-#mailform textarea {
-    width: 350px;
-    border: 1px solid #970000;
-    padding: 5px;
+    line-height:100%
+  }
+  
+  /* Kontaktformular  ALT */
+  
+  #mailform fieldset {
+    border:none;
+    padding:10px 0 10px 0;
+    margin:0;
+  }
+  
+  #mailform label {
+    float:left;
+    width:90px;
+    line-height:25px;
+  }
+  
+  #mailform .csc-mailform-field {
+    padding-bottom:5px;
+  }
+  
+  #mailform input, #mailform textarea {
+    width:350px;
+    border:1px solid #970000;
+    padding:5px;
     font-family: arial;
-    font-size: 12px;
-}
-
-#mailform textarea {
-    width: 350px;
-    height: 100px;
-}
-
-#mailform input.csc-mailform-submit {
-    margin-left: 90px;
-    background: #970000;
-    width: 100px;
-    font-weight: bold;
-    color: #fff;
-    border: 1px solid #970000;
-}
-
-
-/* Kontaktformular  NEU */
-
-.csc-mailform {
-    border: none;
-    padding: 10px 0 10px 0;
-    margin: 0;
-}
-
-.csc-mailform ol {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-.csc-mailform ol li {
-    padding: 0;
-    margin: 0;
-}
-
-.csc-mailform label {
-    float: left;
-    width: 90px !Important;
-    line-height: 25px;
-}
-
-.csc-mailform .csc-form-element {
-    padding-bottom: 5px;
-}
-
-.csc-mailform input,
-.csc-mailform textarea {
-    width: 350px;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #808080;
-    /* damit Rand des Kontaktformulars grau wird; war vorher: border:1px solid #970000; */
-    padding: 5px;
+    font-size:12px;
+  }
+  
+  #mailform textarea {
+    width:350px;
+    height:100px;
+  }
+  
+  #mailform input.csc-mailform-submit {
+    margin-left:90px;
+    background:#970000;
+    width:100px;
+    font-weight:bold;
+    color:#fff;
+    border:1px solid #970000;
+  }
+  
+  
+  /* Kontaktformular  NEU */
+  
+  .csc-mailform {
+    border:none;
+    padding:10px 0 10px 0;
+    margin:0;
+  }
+  
+  .csc-mailform ol {
+    padding:0;
+    margin:0;
+    list-style-type:none;
+  }
+  
+  .csc-mailform ol li {
+    padding:0;
+    margin:0;
+  }
+  
+  .csc-mailform label {
+    float:left;
+    width:90px !Important;
+    line-height:25px;
+  }
+  
+  .csc-mailform .csc-form-element {
+    padding-bottom:5px;
+  }
+  
+  .csc-mailform input, .csc-mailform textarea {
+    width:350px;
+    padding:0;
+    margin:0;
+    border:1px solid #808080; /* damit Rand des Kontaktformulars grau wird; war vorher: border:1px solid #970000; */
+    padding:5px;
     font-family: arial;
-    font-size: 12px;
-}
-
-.csc-mailform textarea {
-    width: 350px;
-    height: 100px;
-}
-
-.csc-mailform .csc-form-element-submit input {
-    margin-left: 102px !important;
-    background: #808080;
-    /* damit Absenden-Button grau wird; war vorher: #970000; */
-    width: 120px;
-    font-weight: bold;
-    color: #fff;
-    border: 1px solid #454444
-}
-
-
-/* Mailform neu FSc 31.5.18 andere zwei uralt */
-#kontakt .formgroup input,
-.csc-mailform textarea {
-    width: 350px;
-    padding: 8px;
-    margin: 10px;
-    border: 1px solid #808080;
-    /* damit Rand des Kontaktformulars grau wird; war vorher: border:1px solid #970000; */
+    font-size:12px;
+  }
+  
+  .csc-mailform textarea {
+    width:350px;
+    height:100px;
+  }
+  
+  .csc-mailform .csc-form-element-submit input {
+    margin-left:102px !important;
+    background:#808080; /* damit Absenden-Button grau wird; war vorher: #970000; */
+    width:120px;
+    font-weight:bold;
+    color:#fff;
+    border:1px solid #454444
+  }
+  
+  
+  /* Mailform neu FSc 31.5.18 andere zwei uralt */
+  #kontakt .formgroup input, .csc-mailform textarea {
+    width:350px;
+    padding:8px;
+    margin:10px;
+    border:1px solid #808080; /* damit Rand des Kontaktformulars grau wird; war vorher: border:1px solid #970000; */
     font-family: arial;
-    font-size: 15px;
-}
-
-/*Abstand vor Formular-Labels oberhalb*/
-.form-group {
+    font-size:15px;
+  }
+  
+  /*Abstand vor Formular-Labels oberhalb*/
+  .form-group{
     margin-top: 20px;
-}
-
-.form-control {
+  }
+  
+  .form-control{
     font-family: arial;
-    width: 640px;
-    /*textarea*/
+    width:640px; /*textarea*/
     padding: 10px;
-}
-
-.kontakt .csc-form-element-submit input {
-    margin-left: 102px !important;
-    background: #808080;
-    /* damit Absenden-Button grau wird; war vorher: #970000; */
-    width: 120px;
-    font-weight: bold;
-    color: #fff;
-    border: 1px solid #454444 font-family: arial;
-    font-size: 15px;
-}
-
-
-
-/* tables aus http://www.ohne-css.gehts-gar.net/demo/0075c.html und http://www.w3schools.com/css/css_table.asp */
-table {}
-
-th {
-    background-color: #808080;
-    color: white;
+  }
+  
+  .kontakt .csc-form-element-submit input {
+    margin-left:102px !important;
+    background:#808080; /* damit Absenden-Button grau wird; war vorher: #970000; */
+    width:120px;
+    font-weight:bold;
+    color:#fff;
+    border:1px solid #454444
+    font-family: arial;
+    font-size:15px;
+  }
+  
+  
+  
+  /* tables aus http://www.ohne-css.gehts-gar.net/demo/0075c.html und http://www.w3schools.com/css/css_table.asp */
+  table{
+  }
+  th {
+      background-color: #808080;
+      color: white;
     padding: 10px;
-}
-
-
-td {
-    font-size: 0.9em;
-    text-align: left;
-    padding: 10px;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2
-}
-
-tt_content.table {
-    20.innerStdWrap.parseFunc>20.innerStdWrap.htmlSpecialChars=1
-}
-
-.button {
+  }
+  
+  
+  td {
+  font-size: 0.9em;
+  text-align: left;
+  padding: 10px;
+  } 
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  tt_content.table {
+       20.innerStdWrap.parseFunc >
+       20.innerStdWrap.htmlSpecialChars = 1
+   }
+  
+  .button {
     font: 20px Arial;
-    margin: 0 px 30px;
+    margin: 0 px 30px; 
     text-decoration: none;
     background-color: #FC8702;
     color: white !important;
     padding: 8px 24px 8px 24px;
     border-radius: 3px;
-
-}
-
-a.button:link {
-    color: white;
-}
-
-.button:hover {
+  
+  }
+  
+  a.button:link{
+      color: white;
+  }
+  
+  .button:hover{
     background-color: white;
     color: #FC8702;
     border-top: 1px solid #FC8702;
@@ -692,14 +591,13 @@ a.button:link {
     border-bottom: 1px solid #FC8702;
     border-left: 1px solid #FC8702;
     border-radius: 3px;
-}
-
-a.button:hover {
-    color: #FC8702 !important;
-}
-
-/*Form submit button ab Typo8.7*/
-.btn {
+  }
+  a.button:hover{
+      color: #FC8702 !important;
+  }
+  
+  /*Form submit button ab Typo8.7*/
+  .btn {
     font: 20px Arial;
     margin-top: 15px;
     text-decoration: none;
@@ -711,10 +609,9 @@ a.button:hover {
     border-bottom: 1px solid #FC8702;
     border-left: 1px solid #FC8702;
     border-radius: 3px;
-
-}
-
-.btn:hover {
+  
+  }
+  .btn:hover{
     background-color: white;
     color: #FC8702;
     border-top: 1px solid #FC8702;
@@ -722,4 +619,7 @@ a.button:hover {
     border-bottom: 1px solid #FC8702;
     border-left: 1px solid #FC8702;
     border-radius: 3px;
-}
+  }
+  
+  
+  

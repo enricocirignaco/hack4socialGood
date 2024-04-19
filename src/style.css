@@ -529,7 +529,7 @@ html, body, div, p, h1, h2, h3, h4, h5, img {
   
   .form-control{
     font-family: arial;
-    width:640px; /*textarea*/
+    width:90%; /*textarea*/
     padding: 10px;
   }
   

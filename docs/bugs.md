@@ -11,7 +11,7 @@ this bug is about the alignment of the main nav bar.
 - **Sol**: ??
 <br></br>
 - **Bug**: Weird zoom-behavior with navigation opened (Nav width is fixed)
-- **Sol**: ??
+- **Sol**: Fix in css: *class nav-ebene-1* change fixed width to 100%
 <br></br>
 - **Bug**: In navigation: "Startseite" doesn't respond when clicking the bar it belongs to
 - **Sol**: Make the bar responsive to touch, and not only the text "Startseite"
@@ -21,10 +21,16 @@ this bug is about the alignment of the main nav bar.
 - **Bug**: In "Kontakt", "Teilnehmer gesucht" and possibly more locations, the textfields aren't adopted to mobile and have a fixed width
 - **Sol**: Fix textfields
 <br></br>
-- **design**: In "Projekte": layout with image and text is ugly -> embed image or put in on top or bottom
-
-<img width="426" alt="image" src="https://github.com/enricocirignaco/hack4socialGood/assets/35838942/64fc5315-b988-4a11-ae99-a566ec814f25">
+- **Bug**: In "Mitmachen": Button "Zu den Angeboten des Kantons Zürich" has a terrible rendering
+- **Sol**: ??
 <br></br>
+  
+- **design**: In "Projekte": layout with image and text is ugly -> embed image or put in on top or bottom
+<br></br>
+- **design**: In "Mitmachen": same problem here with the interplay of image and text -> embed image or put in on top or bottom
+<br></br>
+
+
 
 
 
